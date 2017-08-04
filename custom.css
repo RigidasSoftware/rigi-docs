@@ -1,0 +1,23 @@
+.rigi-logo {
+    height:50px;
+}
+
+.rigi-sidebar-left {
+    display:block;
+    bottom:0;
+    box-sizing: border-box;
+    width: 300px !important;
+    padding: 45px 45px 60px 45px;
+    border-right: 1px #e5e5e5 solid;
+    overflow:auto;
+}
+
+.uk-nav-header {
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.rigi-sidebar-right {
+    width: 300px !important;
+    padding: 45px 45px 60px 45px;
+}
