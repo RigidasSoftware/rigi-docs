@@ -1,3 +1,5 @@
+<template>
+<div>
 <h1 class="uk-heading-primary">StockWise</h1>
 <p>StockWise is designed to allow warehouse managers and staff to manage stock items on a mobile device. Stock counts, 
     stock checks, item edits &amp; Purchase order management can be handled right on the warehouse floor using a simple, 
@@ -8,7 +10,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Searching and Scanning</h2>
     <p>Use the search bar to find an item or click on the <b>Scan</b> button to scan a barcode using the device's camera.</p>
     <p>Select keyword to search by stock item SKU, title, or barcode.</p>
@@ -20,7 +22,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Locations</h2>
     <p>To change what warehouse location StockWise returns product data from, expand the menu and click on <b>Settings</b>.</p>
     <p>Under <b>Linnworks Location</b>, select the location you want to use.</p>
@@ -30,7 +32,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Stock Enquiry</h2>
     <p>To view and edit an existing stock item expand the menu and select <b>Stock Enquiry</b>.</p>
     <p>Search for an item and tap it to enter the item's enquiry page.</p>
@@ -44,7 +46,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Suppliers</h2>
     <p>To view &amp; edit an item's supplier information, open the stock item's enquiry page.</p>
     <p>To add a new supplier from your list of suppliers in Linnworks, click the green <b>plus</b> button.</p>
@@ -58,7 +60,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Stock Item History</h2>
     <p>To view an item's stock level history, open the stock item's enquiry page.</p>
     <p>Scroll down to the <b>Stock Levels</b> section, and click <b>View Recent History</b>.</p>
@@ -69,7 +71,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Stock In</h2>
     <p>To book new stock into your Linnworks database, expand the menu and select <b>Stock In</b>.</p>
     <p>Search for an item.</p>
@@ -86,7 +88,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Stock Count</h2>
     <p>To start a new stock count, open the menu and select stock count.</p>
     <p>Search for your first item to count. You can use the search bar, or your device's camera by tapping the <b>SCAN</b> button.</p>
@@ -103,7 +105,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Purchase Orders</h2>
     <p>To manage your existing purchase orders in StockWise, open the menu and select <b>Purchase Orders</b>.</p>
     <p>View a list of all your purchase orders, or search for a purchase order reference.</p>
@@ -118,7 +120,7 @@
 
 <hr class="uk-margin-large"/>
 
-<divuk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Admin Mode &amp; Permissions</h2>
     <p>To enable <b>Admin Mode</b> in StockWise, expand the menu at the top right hand corner of the screen, find the '<b>Toggle Admin Mode</b>' option and select enable. To find out more about Admin Mode, click here.</p>
     <p>Enter your Admin PIN.</p>
@@ -129,7 +131,7 @@
 
 <hr class="uk-margin-large"/>
 
-<div uk-scrollspy="cls:uk-animation-fade">
+<div>
     <h2>Settings</h2>
     <p>To open your StockWise settings, expand the menu and click <b>Settings</b>.</p>
     <p>If you are using a barcode scanner, you can enable the auto clear option to tell StockWise to remove all the text in the search field once you have finished using a screen. This is great for barcode scanners, as the field will be empty and ready to go the next time you want to scan something.</p>
@@ -138,3 +140,19 @@
     <p>You can use this option to customise what data StockWise will show in this space, so you can have the most important information to hand as quickly as possible.</p>
     <p>To change what warehouse location StockWise returns product data from by using the location picker.</p>
 </div>
+
+<hr class="uk-margin-large-top"/>
+
+<a class="uk-align-right" href="#" uk-totop uk-scroll></a>
+</div>
+</template>
+
+<script>
+export default {
+  head() {
+      return {
+        title: 'StockWise'
+      }
+  }
+}
+</script>

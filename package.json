@@ -1,0 +1,18 @@
+{
+  "name": "rigi-docs",
+  "version": "1.0.0",
+  "description": "The Rigidas Software applications documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^1.0.0-rc3"
+  }
+}
