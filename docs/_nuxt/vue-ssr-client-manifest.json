@@ -1,7 +1,7 @@
 {
   "publicPath": "/rigi-docs/_nuxt/",
   "all": [
-    "0.nuxt.bundle.02698ccdb90c84b3146e.js.map",
+    "0.nuxt.bundle.f613d4f2c7fd72310fb5.js.map",
     "img/naked-long-logo.d08f56f.png",
     "1.nuxt.bundle.7463f806fe6ab72de948.js",
     "2.nuxt.bundle.ff544700f4cedf0a48db.js",
@@ -9,20 +9,20 @@
     "4.nuxt.bundle.991c41ff130c91764a5d.js",
     "vendor.bundle.e3c5a35b9a0de691a6ae.js",
     "nuxt.bundle.c9456b326b0ccdd5e9af.js",
-    "manifest.a53d08bdd2afb6abafb5.js",
-    "0.nuxt.bundle.02698ccdb90c84b3146e.js",
+    "manifest.264a8ceeb4d5944f019f.js",
+    "0.nuxt.bundle.f613d4f2c7fd72310fb5.js",
     "1.nuxt.bundle.7463f806fe6ab72de948.js.map",
     "2.nuxt.bundle.ff544700f4cedf0a48db.js.map",
     "3.nuxt.bundle.e58fb0c47aa658917822.js.map",
     "4.nuxt.bundle.991c41ff130c91764a5d.js.map",
     "vendor.bundle.e3c5a35b9a0de691a6ae.js.map",
     "nuxt.bundle.c9456b326b0ccdd5e9af.js.map",
-    "manifest.a53d08bdd2afb6abafb5.js.map",
+    "manifest.264a8ceeb4d5944f019f.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.a53d08bdd2afb6abafb5.js",
+    "manifest.264a8ceeb4d5944f019f.js",
     "vendor.bundle.e3c5a35b9a0de691a6ae.js",
     "nuxt.bundle.c9456b326b0ccdd5e9af.js"
   ],
@@ -31,7 +31,7 @@
     "2.nuxt.bundle.ff544700f4cedf0a48db.js",
     "3.nuxt.bundle.e58fb0c47aa658917822.js",
     "4.nuxt.bundle.991c41ff130c91764a5d.js",
-    "0.nuxt.bundle.02698ccdb90c84b3146e.js"
+    "0.nuxt.bundle.f613d4f2c7fd72310fb5.js"
   ],
   "modules": {
     "16450216": [
