@@ -1,4 +1,5 @@
 module.exports = {
+    router: { base: '/rigi-docs/' },
     head: {
         titleTemplate: '%s - Documentation',
         script: [
