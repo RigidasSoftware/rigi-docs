@@ -8,7 +8,7 @@
 
 <div id="searchingandscanning"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Searching and Scanning</h2>
@@ -20,7 +20,7 @@
 
 <div id="locations"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Locations</h2>
@@ -30,7 +30,7 @@
 
 <div id="stockenquiry"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Stock Enquiry</h2>
@@ -44,7 +44,7 @@
 
 <div id="suppliers"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Suppliers</h2>
@@ -58,7 +58,7 @@
 
 <div id="stockitemhistory"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Stock Item History</h2>
@@ -69,7 +69,7 @@
 
 <div id="stockin"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Stock In</h2>
@@ -86,7 +86,7 @@
 
 <div id="stockcount"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Stock Count</h2>
@@ -103,7 +103,7 @@
 
 <div id="purchaseorders"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Purchase Orders</h2>
@@ -118,7 +118,7 @@
 
 <div id="permissions"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Admin Mode &amp; Permissions</h2>
@@ -129,7 +129,7 @@
 
 <div id="settings"></div>
 
-<hr class="uk-margin-large"/>
+<hr class="uk-margin-large">
 
 <div>
     <h2>Settings</h2>

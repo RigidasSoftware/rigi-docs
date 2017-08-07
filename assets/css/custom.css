@@ -4,22 +4,10 @@
 
 .rigi-top-bar {
     background-color:#00aec6;
-    position:absolute;
-    top:0;
-    width:100%;
-}
-
-.rigi-content {
-    position:absolute;
-    top:80px;
-    width:100%;
 }
 
 .rigi-sidebar-left {
-    width: 300px !important;
-    padding: 45px 45px 60px 45px;
     border-right: 1px #e5e5e5 solid;
-    height:100%;
 }
 
 .uk-nav-header {
@@ -28,10 +16,7 @@
 }
 
 .rigi-sidebar-right {
-    width: 300px !important;
-    padding: 45px 45px 60px 45px;
     border-left: 1px #e5e5e5 solid;
-    height:100%;
 }
 
 .uk-navbar-toggle {

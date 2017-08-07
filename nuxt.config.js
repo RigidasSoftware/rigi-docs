@@ -1,5 +1,4 @@
 module.exports = {
-    router: { base: '/rigi-docs/' },
     head: {
         titleTemplate: '%s - Documentation',
         script: [
@@ -13,8 +12,5 @@ module.exports = {
     },
     css: [
         '~assets/css/custom.css'
-    ],
-    generate: {
-        dir: 'docs'
-    }
+    ]
 }

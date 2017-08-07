@@ -9,7 +9,7 @@
   <p>Using ePL, you will be able to create interactive pick lists, that are simple and easy for warehouse staff to use. Once you have picked all the items you need to, ePickList can flag those picked orders, so that you can identify and manage them after a pick.</p>
 
   <div id="singleorderpick"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
       <h2>Single Order Pick</h2>
       <p>ePL has two distinct modes for order picking. To pick a single order at a time, use the menu toggle located at the top right of the screen to select ‘pick by order’ mode.</p>
@@ -17,19 +17,21 @@
       <p>While an order is being picked, ePL will assign the <b>Pick List Printed</b> flag to the order in Linnworks.net.</p>
       <p>Aborting the pick will remove the <b>Pick List printed</b> flag from the order, and finishing a pick will trigger any pick actions that you have configured.</p>
 
-      <!--
       <div uk-lightbox class="uk-visible@m">
-        <a href="/single-order-pick-desk.png">
-          <img src="/single-order-pick-desk.png">
+        <a href="/single-order-pick.desk.png">
+          <img src="/single-order-pick.desk.png">
         </a>
       </div>
-      
-      <img src="/single-order-pick-mob.png" class="uk-hidden@m">
-      -->
+
+      <div uk-lightbox class="uk-hidden@m">
+        <a href="/single-order-pick.mob.png">
+          <img src="/single-order-pick.mob.png">
+        </a>
+      </div>
   </div>
 
   <div id="bulkorderpick"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
     <h2>Bulk Order Pick</h2>
     <p>ePL is best used when picking for multiple orders all at the same time. When ePL generates a bulk pick list, it groups all items together, regardless of order relation, so your warehouse staff are making the most of their allotted time.</p>
@@ -40,7 +42,7 @@
   </div>
 
   <div id="pickamount"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
     <h2>Pick Amount</h2>
     <p>When working on a pick list, tap the menu icon at the top right of the screen to change your pick amount.</p>
@@ -52,7 +54,7 @@
   </div>
 
   <div id="picksource"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
     <h2>Pick Source</h2>
     <h4>Single Order Pick</h4>
@@ -71,7 +73,7 @@
   </div>
 
   <div id="pickoptions"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
     <h2>Pick Options</h2>
     <p>In Pick Options, you can change how ePL behaves while you work on a pick</p>
@@ -84,24 +86,24 @@
   </div>
 
   <div id="pickrequirements"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
     <h2>Pick Requirements</h2>
     <p>The Pick Requirements setting lets you choose if you want to force the picker to scan the correct item SKU or Barcode before an item can be marked as picked.</p>
   </div>
 
   <div id="pickactions"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
     <h2>Pick Actions</h2>
     <p>Under Pick Actions, you can decide what happens to the order once it’s picked. You can choose to assign the order to a folder, assign a tag to the order, or both! You can even decide whether or not you want ePL to trigger an invoice print once the order has been fully picked.</p>
   </div>
 
   <div id="settings"></div>
-  <hr class="uk-margin-large"/>
+  <hr class="uk-margin-large">
   <div>
     <h2>Additional Settings</h2>
-    <p>The Additional settings allows you to decide if you want images & stock levels visible in your pick. If you have a slow internet connection, it may be worth disabling these.</p>
+    <p>The Additional settings allows you to decide if you want images &amp; stock levels visible in your pick. If you have a slow internet connection, it may be worth disabling these.</p>
   </div>
 
   <hr class="uk-margin-large-top"/>
