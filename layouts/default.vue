@@ -69,7 +69,7 @@
                     <div class="rigi-sidebar-right">
                         <ul class="uk-nav uk-nav-default uk-margin-left uk-margin-right uk-margin-top">
                             <li>
-                                <a href="https://github.com/RigidasSoftware/issues" target="_blank">
+                                <a href="https://github.com/RigidasSoftware/rigi-docs/issues" target="_blank">
                                     <span uk-icon="icon: warning" class="uk-margin-small-right uk-icon"></span>
                                     <span class="uk-text-middle">Report Issue</span>
                                 </a>
@@ -81,7 +81,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/RigidasSoftware" target="_blank">
+                                <a href="https://github.com/RigidasSoftware/rigi-docs" target="_blank">
                                     <span uk-icon="icon: pencil" class="uk-margin-small-right uk-icon"></span>
                                     <span class="uk-text-middle">Edit this page</span>
                                 </a>
