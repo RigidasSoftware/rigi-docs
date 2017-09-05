@@ -33,7 +33,7 @@
   <hr class="uk-margin-large">
   <div>
     <h2>Job Pick</h2>
-    <p>If you are using the Linnworks Order Flow functionality, you can use ePickList to generate a pick list for all orders in a specified workflow job.</p>
+    <p>If you are using the Linnworks Order Workflow functionality, you can use ePickList to generate a pick list for all orders in a specified workflow job.</p>
     <p>To do this, first make sure you are in 'Job pick' mode, by selecting it from the top right menu.</p>
     <p>Once you have configured your pick settings, you can search for a Job Name using the search bar located at the bottom of the screen.</p>
     <p>The job Name can either be manually typed, or scanned from a barcode. Once ePickList has found the correct job, the pick list will be loaded, and you can begin picking</p>
