@@ -34,10 +34,10 @@
   <div>
     <h2>Job Pick</h2>
     <p>If you are using the Linnworks Order Workflow functionality, you can use ePickList to generate a pick list for all orders in a specified workflow job.</p>
-    <p>To do this, first make sure you are in 'Job pick' mode, by selecting it from the top right menu.</p>
+    <p>To do this, first make sure you are in <b>Job pick</b> mode, by selecting it from the top right menu.</p>
     <p>Once you have configured your pick settings, you can search for a Job Name using the search bar located at the bottom of the screen.</p>
-    <p>The job Name can either be manually typed, or scanned from a barcode. Once ePickList has found the correct job, the pick list will be loaded, and you can begin picking</p>
-    <p><b>NOTE:</b> This functionality is not available to all Linnworks users. For more information about the Order Workflows feature, please contact Linnworks Support</p>
+    <p>The job name can either be manually typed, or scanned from a barcode. Once ePickList has found the correct job, the pick list will be loaded, and you can begin picking.</p>
+    <p><b>NOTE:</b> This functionality is not available to all Linnworks users. For more information about the Order Workflows feature, please contact Linnworks Support.</p>
   </div>
 
   <div id="picksource"></div>
@@ -139,8 +139,8 @@
     <h2>Batched Items</h2>
     <p>If you are using the Stock Item Batching functionality in Linnworks, Linnworks will automatically assign your order items to the appropriate batches when ePickList generates a new pick.</p>
     <p>Once an order item has been assigned to a batch, you will see the batch number highlighted in green, located underneath the amount needed to be picked.</p>
-    <p>If you decide that you cannot pick from the batches that Linnworks has assigned to these order items, you can change the batch assignment from the Report Item screen</p>
-    <p>On this screen you will be able to see all avaialable batches for this item. Tapping one will allow you to re-arrange the batch allocation</p>
+    <p>If you decide that you cannot pick from the batches that Linnworks has assigned to these order items, you can change the batch assignment from the Report Item screen.</p>
+    <p>On this screen you will be able to see all available batches for this item. Tapping one will allow you to re-arrange the batch allocation.</p>
   </div>
 
   <div id="epldashboard"></div>
@@ -148,10 +148,10 @@
   <div>
     <h2>EPL Dashboard</h2>
     <p>In Linnworks, you can see an overview of all your EPL picks from the EPL Dashboard.</p>
-    <p>To view the dashboard in Linnworks.net, click the Apps button in the Linnworks.net left hand menu, and select ePickList. On this screen you can see every pick you have generated using ePicklist</p>
-    <p>The search bar allows you to find a specific pick by entering a pick reference. You can use the toggles to the right to view Active, Complete or Aborted picks</p>
-    <p>Clicking on a pick will allow you to see a list of orders and items included in that pick</p>
-    <p>The dashboard contains live information. Every action taken by a picker in EPL is reported instantly to this screen</p>
+    <p>To view the dashboard in Linnworks.net, click the Apps button in the Linnworks.net left hand menu, and select ePickList. On this screen you can see every pick you have generated using ePicklist.</p>
+    <p>The search bar allows you to find a specific pick by entering a pick reference. You can use the toggles to the right to view Active, Complete or Aborted picks.</p>
+    <p>Clicking on a pick will allow you to see a list of orders and items included in that pick.</p>
+    <p>The dashboard contains live information. Every action taken by a picker in EPL is reported instantly to this screen.</p>
   </div>
 
   <hr class="uk-margin-large-top"/>
