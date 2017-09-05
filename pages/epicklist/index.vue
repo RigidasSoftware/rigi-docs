@@ -127,8 +127,9 @@
     <p>When picking, you can tap on the SKU of an item to see more information. On this screen, tapping the flag icon will let you report this item.</p>
     <p>When reporting an item, tap the 'reason' section to choose why you are reporting this item. There are two reason you may want to report an item:</p>
     <ul class="uk-list uk-list-bullet">
-      <li><b>Cannot find product:<b> For when you can't find the item in the bin/rack location specified</li>
+      <li><b>Cannot find product:</b> For when you can't find the item in the bin/rack location specified</li>
       <li><b>Not enough to fulfil:</b> For when you can find the item, but there isn't enough in the bin/rack location specified to fully pick the item</li>
+    </ul>
     <p>Reporting an item will leave a note on all the orders that could not be fulfilled, and flag these items in the ePickList Dashboard</p>
   </div>
 
