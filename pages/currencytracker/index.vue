@@ -2,7 +2,7 @@
 <div>
   <h1 class="uk-heading-primary">Currency Tracker</h1>
   <p>Currency Tracker is a Linnworks application that keeps your Linnworks currency rates up to date.</p>
-  <p>Using Currency Tracker, your currency rates will updated regularly, this will help to improve the accuracy of reports and will also enable you to keep prices competitive.</p>
+  <p>Using Currency Tracker, your currency rates will be updated regularly, this will help to improve the accuracy of reports and will also enable you to keep prices competitive.</p>
 
   <div uk-lightbox class="uk-visible@m">
     <a href="/currency-tracker.desk.png">
