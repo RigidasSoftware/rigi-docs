@@ -74,7 +74,7 @@
     <p>The generation settings provide options over how a pick is created</p>
 
     <h4>Composite Mode</h4>
-    <p>Choose how composite items should be added to the pick list.
+    <p>Choose how composite items should be added to the pick list.</p>
     <ul class="uk-list uk-list-bullet">
       <li>Parent will use the top level parent of a composite. Used when composites are pre-bundled</li>
       <li>Child will use the granular level items. Used when composite items are not pre-bundled</li>
