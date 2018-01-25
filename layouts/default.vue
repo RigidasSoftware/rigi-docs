@@ -54,6 +54,13 @@
                             <li><a href="/epicklist#settings_display">Display</a></li>
                             <li><a href="/epicklist#settings_afterpick">After Pick</a></li>
                             <li><a href="/epicklist#settings_scanning">Scanning</a></li>
+                            <li class="uk-navbar-subtitle"><a href="/epicklist#pick-screen">Pick Screen</a></li>
+                            <li><a href="/epicklist#pickamount">Pick Amount</a></li>
+                            <li><a href="/epicklist#itemview">Item View</a></li>
+                            <li><a href="/epicklist#reportitem">Report Item</a></li>
+                            <li><a href="/epicklist#batcheditems">Batched Items</a></li>
+                            <li class="uk-navbar-subtitle">Admin</li>
+                            <li><a href="/epicklist#epldashboard">Dashboard</a></li>
                         </ul>
                         <ul class="uk-nav uk-nav-default uk-margin-right">
                             <li class="uk-nav-header">Currency Tracker</li>
@@ -120,16 +127,23 @@
                 <ul class="uk-nav uk-nav-default">
                     <li class="uk-nav-header">ePickList</li>
                     <li><a href="/epicklist">Concept</a></li>
-                    <li class="uk-navbar-subtitle">Pick Modes</li>
+                    <li class="uk-navbar-subtitle"><a href="/epicklist#pick-modes">Pick Modes</a></li>
                     <li><a href="/epicklist#singleorderpick">Single Order Pick</a></li>
                     <li><a href="/epicklist#bulkorderpick">Bulk Order Pick</a></li>
                     <li><a href="/epicklist#pickamount">Pick Amount</a></li>
-                    <li class="uk-navbar-subtitle">Settings</li>
+                    <li class="uk-navbar-subtitle"><a href="/epicklist#settings">Settings</a></li>
                     <li><a href="/epicklist#settings_picksource">Source</a></li>
                     <li><a href="/epicklist#settings_generate">Generation</a></li>
                     <li><a href="/epicklist#settings_display">Display</a></li>
                     <li><a href="/epicklist#settings_afterpick">After Pick</a></li>
                     <li><a href="/epicklist#settings_scanning">Scanning</a></li>
+                    <li class="uk-navbar-subtitle"><a href="/epicklist#pick-screen">Pick Screen</a></li>
+                    <li><a href="/epicklist#pickamount">Pick Amount</a></li>
+                    <li><a href="/epicklist#itemview">Item View</a></li>
+                    <li><a href="/epicklist#reportitem">Report Item</a></li>
+                    <li><a href="/epicklist#batcheditems">Batched Items</a></li>
+                    <li class="uk-navbar-subtitle">Admin</li>
+                    <li><a href="/epicklist#epldashboard">Dashboard</a></li>
                 </ul>
                 <ul class="uk-nav uk-nav-default">
                     <li class="uk-nav-header">Currency Tracker</li>

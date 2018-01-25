@@ -162,10 +162,11 @@
 
   </div>  
     
-    
-  <div id="pickamount"></div>
+
   <hr class="uk-margin-large">
+  <h1 id="pick-screen">Pick Screen</h1>
   <div>
+    <div id="pickamount"></div>
     <h2>Pick Amount</h2>
     <p>When working on a pick list, tap the menu icon at the top right of the screen to change your pick amount.</p>
     <ul class="uk-list uk-list-bullet">
@@ -213,6 +214,7 @@
     <p>On this screen you will be able to see all available batches for this item. Tapping one will allow you to re-arrange the batch allocation.</p>
   </div>
 
+  <h1>Admin</h1>
   <div id="epldashboard"></div>
   <hr class="uk-margin-large">
   <div>
