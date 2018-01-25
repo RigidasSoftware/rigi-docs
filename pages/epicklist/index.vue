@@ -63,7 +63,7 @@
     <h4>Open Order View</h4>
     <p>The order view to load orders from</p>
     <h4>Number of Orders</h4>
-    <p>The number of orders to load<p>
+    <p>The number of orders to load</p>
   </div>
 
 
