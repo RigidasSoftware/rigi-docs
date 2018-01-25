@@ -213,11 +213,11 @@
     <p>If you decide that you cannot pick from the batches that Linnworks has assigned to these order items, you can change the batch assignment from the Report Item screen.</p>
     <p>On this screen you will be able to see all available batches for this item. Tapping one will allow you to re-arrange the batch allocation.</p>
   </div>
-
-  <h1>Admin</h1>
-  <div id="epldashboard"></div>
+  
   <hr class="uk-margin-large">
+  <h1>Admin</h1>
   <div>
+    <div id="epldashboard"></div>
     <h2>EPL Dashboard</h2>
     <p>In Linnworks, you can see an overview of all your EPL picks from the EPL Dashboard.</p>
     <p>To view the dashboard in Linnworks.net, click the Apps button in the Linnworks.net left hand menu, and select ePickList. On this screen you can see every pick you have generated using ePicklist.</p>
