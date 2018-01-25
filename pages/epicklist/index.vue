@@ -8,9 +8,10 @@
   </ul>
   <p>Using EPL, you will be able to create interactive pick lists, that are simple and easy for warehouse staff to use. Once you have picked all the items you need to, ePickList can flag those picked orders, so that you can identify and manage them after a pick.</p>
 
-  <div id="bulkorderpick"></div>
   <hr class="uk-margin-large">
+  <h1 id="pick-modes">Pick Modes</h1>
   <div>
+    <div id="bulkorderpick"></div>
     <h2>Bulk Order Pick</h2>
     <p>EPL is best used when picking for multiple orders all at the same time. When EPL generates a bulk pick list, it groups all items together, regardless of order relation, so your warehouse staff are making the most of their allotted time.</p>
     <p>To switch to bulk picking mode, tap the menu toggle at the top right of the screen, and select <b>Pick by View</b>.</p>
@@ -20,7 +21,6 @@
   </div>
 
   <div id="singleorderpick"></div>
-  <hr class="uk-margin-large">
   <div>
       <h2>Single Order Pick</h2>
       <p>To pick for a single order at a time, use the menu toggle located at the top right of the screen to select ‘pick by order’ mode.</p>
@@ -30,7 +30,6 @@
   </div>
 
   <div id="jobpick"></div>
-  <hr class="uk-margin-large">
   <div>
     <h2>Job Pick</h2>
     <p>If you are using the Linnworks Order Workflow functionality, you can use ePickList to generate a pick list for all orders in a specified workflow job.</p>
@@ -39,9 +38,9 @@
     <p>The job name can either be manually typed, or scanned from a barcode. Once ePickList has found the correct job, the pick list will be loaded, and you can begin picking.</p>
     <p><b>NOTE:</b> This functionality is not available to all Linnworks users. For more information about the Order Workflows feature, please contact Linnworks Support.</p>
   </div>
-
-  <div id="settings_picksource"></div>
   <hr class="uk-margin-large">
+  <h1 id="settings">Settings</h1>
+  <div id="settings_picksource"></div>
   <div>
     <h2>Source</h2>
     <h3>General Settings</h3>

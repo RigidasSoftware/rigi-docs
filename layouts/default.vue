@@ -44,11 +44,11 @@
                         <ul class="uk-nav uk-nav-default uk-margin-right">
                             <li class="uk-nav-header">ePickList</li>
                             <li><a href="/epicklist">Concept</a></li>
-                            <li class="uk-navbar-subtitle">Pick Modes</li>
+                            <li class="uk-navbar-subtitle"><a href="/epicklist#pick-modes">Pick Modes</a></li>
                             <li><a href="/epicklist#singleorderpick">Single Order Pick</a></li>
                             <li><a href="/epicklist#bulkorderpick">Bulk Order Pick</a></li>
                             <li><a href="/epicklist#pickamount">Pick Amount</a></li>
-                            <li class="uk-navbar-subtitle">Settings</li>
+                            <li class="uk-navbar-subtitle"><a href="/epicklist#settings">Settings</a></li>
                             <li><a href="/epicklist#settings_picksource">Source</a></li>
                             <li><a href="/epicklist#settings_generate">Generation</a></li>
                             <li><a href="/epicklist#settings_display">Display</a></li>
@@ -119,15 +119,17 @@
                 </ul>
                 <ul class="uk-nav uk-nav-default">
                     <li class="uk-nav-header">ePickList</li>
-                    <li><a href="/epicklist" uk-toggle="target:#offcanvas">Concept</a></li>
-                    <li><a href="/epicklist#singleorderpick" uk-toggle="target:#offcanvas">Single Order Pick</a></li>
-                    <li><a href="/epicklist#bulkorderpick" uk-toggle="target:#offcanvas">Bulk Order Pick</a></li>
-                    <li><a href="/epicklist#pickamount" uk-toggle="target:#offcanvas">Pick Amount</a></li>
-                    <li><a href="/epicklist#picksource" uk-toggle="target:#offcanvas">Pick Source</a></li>
-                    <li><a href="/epicklist#pickoptions" uk-toggle="target:#offcanvas">Pick Options</a></li>
-                    <li><a href="/epicklist#pickrequirements" uk-toggle="target:#offcanvas">Pick Requirements</a></li>
-                    <li><a href="/epicklist#pickactions" uk-toggle="target:#offcanvas">Pick Actions</a></li>
-                    <li><a href="/epicklist#settings" uk-toggle="target:#offcanvas">Additional Settings</a></li>
+                    <li><a href="/epicklist">Concept</a></li>
+                    <li class="uk-navbar-subtitle">Pick Modes</li>
+                    <li><a href="/epicklist#singleorderpick">Single Order Pick</a></li>
+                    <li><a href="/epicklist#bulkorderpick">Bulk Order Pick</a></li>
+                    <li><a href="/epicklist#pickamount">Pick Amount</a></li>
+                    <li class="uk-navbar-subtitle">Settings</li>
+                    <li><a href="/epicklist#settings_picksource">Source</a></li>
+                    <li><a href="/epicklist#settings_generate">Generation</a></li>
+                    <li><a href="/epicklist#settings_display">Display</a></li>
+                    <li><a href="/epicklist#settings_afterpick">After Pick</a></li>
+                    <li><a href="/epicklist#settings_scanning">Scanning</a></li>
                 </ul>
                 <ul class="uk-nav uk-nav-default">
                     <li class="uk-nav-header">Currency Tracker</li>
