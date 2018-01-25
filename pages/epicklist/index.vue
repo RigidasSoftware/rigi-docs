@@ -40,7 +40,7 @@
   </div>
   <hr class="uk-margin-large">
   <h1>Settings</h1>
-  <div id="settings>
+  <div id="settings">
     <p>The settings screen can be found by tapping on the menu icon (three dots) on the top right of the application, and selecting "Settings". This allows for complete control of what orders are picked by ePickList at any given time.</p>
   </div>
   <div id="settings_picksource"></div>
@@ -114,7 +114,7 @@
     <p>Enabling this setting adds an image column to the pick list, displaying the item's main Linnworks image to help you find it. This is especially useful on a larger phone or a tablet, but we really wouldn't recommend it on a smaller screen, where space is valuable.</p>
 
     <h4>Show Stock Levels</h4>
-    <p>Adds the item's stock level as a column on the pick list. <strong> EPL gets these levels when the pick list is first generated, and do not automatically update, so the levels are only valid at the time of generation.</p>
+    <p>Adds the item's stock level as a column on the pick list. <strong> EPL gets these levels when the pick list is first generated, and do not automatically update, so the levels are only valid at the time of generation.</strong></p>
     <ul class="uk-list uk-list-bullet">
       <li>Show a stock level column on the pick. If you're using a device with too small a screen, the stock level won't show here even with this setting selected.</li>
       <li>Show the stock level in the item details screen</li>
