@@ -23,6 +23,10 @@
                 <div class="uk-width-1-4@m uk-visible@m">
                     <div class="rigi-sidebar-left uk-margin-left uk-margin-top uk-margin-right">
                         <h3>Documentation</h3>
+			<ul class="uk-nav uk-nav-default uk-margin-right">
+			    <li class="uk-nav-header">General</li>
+			    <li><a href="/general">Permissions</a></li>
+			</ul>
                         <ul class="uk-nav uk-nav-default uk-margin-right">
                             <li class="uk-nav-header">StockWise</li>
                             <li><a href="/stockwise">Concept</a></li>
