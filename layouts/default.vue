@@ -44,14 +44,16 @@
                         <ul class="uk-nav uk-nav-default uk-margin-right">
                             <li class="uk-nav-header">ePickList</li>
                             <li><a href="/epicklist">Concept</a></li>
+                            <li class="uk-navbar-subtitle">Pick Modes</li>
                             <li><a href="/epicklist#singleorderpick">Single Order Pick</a></li>
                             <li><a href="/epicklist#bulkorderpick">Bulk Order Pick</a></li>
                             <li><a href="/epicklist#pickamount">Pick Amount</a></li>
-                            <li><a href="/epicklist#picksource">Pick Source</a></li>
-                            <li><a href="/epicklist#pickoptions">Pick Options</a></li>
-                            <li><a href="/epicklist#pickrequirements">Pick Requirements</a></li>
-                            <li><a href="/epicklist#pickactions">Pick Actions</a></li>
-                            <li><a href="/epicklist#settings">Additional Settings</a></li>
+                            <li class="uk-navbar-subtitle">Settings</li>
+                            <li><a href="/epicklist#settings_picksource">Source</a></li>
+                            <li><a href="/epicklist#settings_generate">Generation</a></li>
+                            <li><a href="/epicklist#settings_display">Display</a></li>
+                            <li><a href="/epicklist#settings_afterpick">After Pick</a></li>
+                            <li><a href="/epicklist#settings_scanning">Scanning</a></li>
                         </ul>
                         <ul class="uk-nav uk-nav-default uk-margin-right">
                             <li class="uk-nav-header">Currency Tracker</li>

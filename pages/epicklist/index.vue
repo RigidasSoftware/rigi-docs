@@ -40,59 +40,130 @@
     <p><b>NOTE:</b> This functionality is not available to all Linnworks users. For more information about the Order Workflows feature, please contact Linnworks Support.</p>
   </div>
 
-  <div id="picksource"></div>
+  <div id="settings_picksource"></div>
   <hr class="uk-margin-large">
   <div>
-    <h2>Pick Source</h2>
-    <h4>Single Order Pick</h4>
-    <p>This setting allows you to select which Linnworks.net warehouse location you want to pick from. You can only pick orders that exist in the select location</p>
-    <h4>Bulk Order Pick</h4>
-      <p>When generating a pick list for multiple orders in bulk, EPL makes use of you existing Linnworks.net open order views.</p>
-      <p>Because Linnworks.net open order views are user specific, first select a user. EPL will now only be looking at this user’s views.</p>
-      <p>Once you have selected a view, EPL will only allow you to pick orders from that view. It may be worth setting up a ready to pick view in Linnworks, so that you know you are only selecting orders that are actually ready to be picked.</p>
-      <p>Alternatively, you can use the EPL Recommended view. This isn’t a view that exists in your Linnworks account, but is a view we have created to allow you to get started quickly, without having to manage your Linnworks.net views. This view has predefined filters. To be included in this view, the order must</p>
+    <h2>Source</h2>
+    <h3>General Settings</h3>
+    <h4>Location</h4>
+    <p>This setting allows you to select which Linnworks warehouse location you want to pick from. You can only pick orders that exist in the select location</p>
+    <h3>Bulk Order Pick</h3>
+    <p>When generating a pick list for multiple orders in bulk, EPL makes use of you existing Linnworks.net open order views.</p>
+    <p>Because Linnworks.net open order views are user specific, first select a user. EPL will now only be looking at this user’s views.</p>
+    <p>Once you have selected a view, EPL will only allow you to pick orders from that view. It may be worth setting up a ready to pick view in Linnworks, so that you know you are only selecting orders that are actually ready to be picked.</p>
+    <p>Alternatively, you can use the EPL Recommended view. This isn’t a view that exists in your Linnworks account, but is a view we have created to allow you to get started quickly, without having to manage your Linnworks.net views. This view has predefined filters. To be included in this view, the order must</p>
     <ul class="uk-list uk-list-bullet">
       <li>Be Paid</li>
       <li>Not be locked or parked</li>
       <li>Have enough of its items in stock to be fulfilled</li>
       <li>Not already have its <b>pick list printed</b> flag set</li>
     </ul>
+    <h4>User</h4>
+    <p>The user to load views from</p>
+    <h4>Open Order View</h4>
+    <p>The order view to load orders from</p>
+    <h4>Number of Orders</h4>
+    <p>The number of orders to load<p>
   </div>
 
-  <div id="pickoptions"></div>
+
+  <div id="settings_generate"></div>
   <hr class="uk-margin-large">
   <div>
-    <h2>Pick Options</h2>
-    <p>In Pick Options, you can change how EPL behaves while you work on a pick</p>
+    <h2>Generation</h2>
+    <p>The generation settings provide options over how a pick is created</p>
+
+    <h4>Composite Mode</h4>
+    <p>Choose how composite items should be added to the pick list.
     <ul class="uk-list uk-list-bullet">
-      <li>Composite Mode lets you choose between showing composite children or parents</li>
-      <li>Pick Sort allows you to customise how the order’s items are arranged on screen</li>
-      <li>Auto Focus to Input Box means that after each pick, focus is always brought back to the search field. This option is perfect for paired barcode scanners</li>
-      <li>Move Picked Items to Bottom will instruct EPL to move an item row all the way to the bottom of the pick list once it’s been fully picked.</li>
+      <li>Parent will use the top level parent of a composite. Used when composites are pre-bundled</li>
+      <li>Child will use the granular level items. Used when composite items are not pre-bundled</li>
     </ul>
+
+    <h4>Auto Pick Unlinked Items</h4>
+    <p>If an item is unlinked, should it be automatically picked. This is useful for service items and items that can not be physically scanned.</p>
+
+    <h4>Batch Assignment</h4>
+    <p>Choose how batches should be treated</p>
+    <b>Use existing assignment</b><br>
+    <p>This is the same as the old implementation. It will only assign batches for orders that have not been assigned yet. Any previously assigned batches will not be changed.</p>
+    <b>Get latest batches. Retain manual changes</b><br>
+    <p>This will get the latest batch information for all batches that have not been manually set in the open orders screen.</p>
+    <b>Get latest batches for all</b><br>
+    <p>This will get the latest batches for everything. Overwriting manual changes as well</p>
+
   </div>
 
-  <div id="pickrequirements"></div>
+
+  <div id="settings_display"></div>
   <hr class="uk-margin-large">
   <div>
-    <h2>Pick Requirements</h2>
-    <p>The Pick Requirements setting lets you choose if you want to force the picker to scan the correct item SKU or Barcode before an item can be marked as picked.</p>
+
+    <h2>Display</h2>
+    <p>How items should be displayed during the pick</p>
+
+    <h4>Pick Sort</h4>
+    <p>Customise how the items are arranged on screen</p>
+
+    <h4>Move Picked Items to Bottom</h4>
+    <p>Move an item row all the way to the bottom of the pick list once it’s been fully picked.</p>
+
+    <h4>Show Images</h4>
+    <p>Show an image column on the pick rows. Not ideal for small screens</p>
+
+    <h4>Show Stock Levels</h4>
+    <p>Show stock levels in the pick. Levels are only valid at time of creating the pick list</p>
+    <ul class="uk-list uk-list-bullet">
+      <li>Show a stock level column on the pick. Won't show on small screens</li>
+      <li>Show the stock level in the item details screen</li>
+    </ul>
+
   </div>
 
-  <div id="pickactions"></div>
+  <div id="settings_afterpick"></div>
   <hr class="uk-margin-large">
   <div>
-    <h2>Pick Actions</h2>
-    <p>Under Pick Actions, you can decide what happens to the order once it’s picked. You can choose to assign the order to a folder, assign a tag to the order, or both! You can even decide whether or not you want EPL to trigger an invoice print once the order has been fully picked.</p>
+
+    <h2>After Pick</h2>
+    <p>Actions that occur after completing a pick</p>
+    
+    <h3>Summary</h3>
+    <h4>Show Pick Summary</h4>
+    <p>Show a summary of picked and unpicked orders and items with any reports created along the way</p>
+
+    <h3>Picked Orders</h3>
+    <p>When a pick is completed, actions will be performed on orders</p>
+
+    <h4>Pick Tag</h4>
+    <p>Picked orders will have the selected order tag assigned to them</p>
+
+    <h4>Pick Folder</h4>
+    <p>Picked orders will have the selected folder assigned to them</p>
+
+    <h4>Invoice Printing</h4>
+    <p>Picked orders will have an invoice printed. Invoices can be sent to a specific virtual printer within Linnworks</p>
+
   </div>
 
-  <div id="additional"></div>
+  <div id="settings_scanning"></div>
   <hr class="uk-margin-large">
   <div>
-    <h2>Additional</h2>
-    <p>The Additional settings allows you to decide if you want images &amp; stock levels visible in your pick. If you have a slow internet connection, it may be worth disabling these.</p>
-  </div>
 
+    <h2>Scanning</h2>
+    <p>epicklist is best used with a handheld scanner. These options enable a smoother experience.</p>
+    
+    <h4>Scan Required</h4>
+    <p>Choose if you want to force the picker to scan the correct item SKU or Barcode before an item can be marked as picked. If not enabled, the picker will simply be able to set an item as picked with a button</p>
+
+    <h4>Auto Focus to Input Box</h4>
+    <p>After each pick, focus is always brought back to the search field</p>
+
+    <h4>Hide Virtual Keyboard</h4>
+    <p>An Android only option, this setting will prevent the on screen keyboard from showing when using the scanner allowing a larger screen space shown for picking</p>
+
+  </div>  
+    
+    
   <div id="pickamount"></div>
   <hr class="uk-margin-large">
   <div>
