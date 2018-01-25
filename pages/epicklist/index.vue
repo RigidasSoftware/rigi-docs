@@ -78,7 +78,7 @@
     <h4>Composite Mode</h4>
     <p>Choose how composite items should be added to the pick list.</p>
     <ul class="uk-list uk-list-bullet">
-      <li>The <strong>Parent</strong> option will use the top level parent of a composite. You'll want to select this option is your composite items are pre-bundled and are considered one item.</li>
+      <li>The <strong>Parent</strong> option will use the top level parent of a composite. You'll want to select this option if your composite items are pre-bundled and are considered one item.</li>
       <li>The <strong>Child</strong> instead uses the granular level items. When a composite is bundled only at the packing station, you'll want this option so you can see the individual items needed to complete the bundle.</li>
     </ul>
 
@@ -88,7 +88,7 @@
     <h4>Batch Assignment</h4>
     <p>Choose how batches should be treated</p>
     <b>Use existing assignment</b><br>
-    <p>This is the same as the old implementation. It will only assign batches for orders that have not been assigned yet. Any previously assigned batches will not be changed.</p>
+    <p>This is the default Linnworks implementation for batches. It will only assign batches for orders that have not been assigned yet. Any previously assigned batches will not be changed.</p>
     <b>Get latest batches. Retain manual changes</b><br>
     <p>This will get the latest batch information for all batches that have not been manually set in the open orders screen.</p>
     <b>Get latest batches for all</b><br>
@@ -108,13 +108,13 @@
     <p>EPL allows you to sort a picklist using either the item SKUs or the physical bin/rack.</p>
 
     <h4>Move Picked Items to Bottom</h4>
-    <p>Find yourself scrolling past items you've already picked? Enabling this setting moves fully picked items to the bottom of the list, keeping them out of the way of a quicker pick.</p>
+    <p>Find yourself scrolling past items you've already picked? Enabling this setting moves fully picked items to the bottom of the list, keeping them out of the way for a quicker pick.</p>
 
     <h4>Show Images</h4>
     <p>Enabling this setting adds an image column to the pick list, displaying the item's main Linnworks image to help you find it. This is especially useful on a larger phone or a tablet, but we really wouldn't recommend it on a smaller screen, where space is valuable.</p>
 
     <h4>Show Stock Levels</h4>
-    <p>Adds the item's stock level as a column on the pick list. <strong> EPL gets these levels when the pick list is first generated, and do not automatically update, so the levels are only valid at the time of generation.</strong></p>
+    <p>Adds the item's stock level as a column on the pick list. <strong> EPL gets these levels when the pick list is first generated, and does not automatically update, so the levels are only valid at the time of generation.</strong></p>
     <ul class="uk-list uk-list-bullet">
       <li>Show a stock level column on the pick. If you're using a device with too small a screen, the stock level won't show here even with this setting selected.</li>
       <li>Show the stock level in the item details screen</li>
@@ -156,7 +156,7 @@
     <p>Enable this option if you want to force the picker to scan the correct item SKU or Barcode before an item can be marked as picked. If not enabled, the picker will simply be able to set an item as picked by tapping the button to the right of the item row.</p>
 
     <h4>Auto Focus to Input Box</h4>
-    <p>After each pick, focus will always brought back to the search field. Coupled with the fact that EPL automatically clears the keyboard on a successful scan, this means that barcode scanners can be used to continually scan without interruption.</p>
+    <p>After each pick, focus will always be brought back to the search field. Coupled with the fact that EPL automatically clears the keyboard on a successful scan, this means that barcode scanners can be used to continually scan without interruption.</p>
 
     <h4>Hide Virtual Keyboard</h4>
     <p>An Android only option, this setting will prevent the on-screen keyboard from showing when using the scanner, allowing a larger screen space to be shown for picking</p>
