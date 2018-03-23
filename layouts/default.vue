@@ -47,6 +47,7 @@
                             <li class="uk-navbar-subtitle"><a href="/epicklist#pick-modes">Pick Modes</a></li>
                             <li><a href="/epicklist#singleorderpick">Single Order Pick</a></li>
                             <li><a href="/epicklist#bulkorderpick">Bulk Order Pick</a></li>
+                            <li><a href="/epicklist#jobpick">Job Pick</a></li>
                             <li><a href="/epicklist#pickamount">Pick Amount</a></li>
                             <li class="uk-navbar-subtitle"><a href="/epicklist#settings">Settings</a></li>
                             <li><a href="/epicklist#settings_picksource">Source</a></li>
@@ -130,6 +131,7 @@
                     <li class="uk-navbar-subtitle"><a href="/epicklist#pick-modes">Pick Modes</a></li>
                     <li><a href="/epicklist#singleorderpick">Single Order Pick</a></li>
                     <li><a href="/epicklist#bulkorderpick">Bulk Order Pick</a></li>
+                    <li><a href="/epicklist#jobpick">Job Pick</a></li>
                     <li><a href="/epicklist#pickamount">Pick Amount</a></li>
                     <li class="uk-navbar-subtitle"><a href="/epicklist#settings">Settings</a></li>
                     <li><a href="/epicklist#settings_picksource">Source</a></li>

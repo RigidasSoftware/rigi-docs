@@ -49,6 +49,7 @@
     <h3>General Settings</h3>
     <h4>Location</h4>
     <p>This setting allows you to select which Linnworks warehouse location you want to pick from. You can only pick orders that exist in the selected location</p>
+    
     <h3>Bulk Order Pick</h3>
     <p>When generating a pick list for multiple orders in bulk, EPL makes use of your existing Linnworks.net open order views.</p>
     <p>Because Linnworks.net open order views are user specific, the first thing you'll need to do is select a user. EPL will now only be looking at this user’s views.</p>
@@ -66,6 +67,19 @@
     <p>The Linnworks.net order view to load orders from. If you're setting up a view just for EPL, you needn't worry about things like what columns are visible; just make sure the filters only return the orders you want to pick, and we'll handle the rest.</p>
     <h4>Number of Orders</h4>
     <p>An order view can contain hundreds, or even thousands of orders at a time. To make sure no single picker is being set the impossible task of picking items for every single one of these in one go, you can set the number of orders ePickList will select from this view, from 1 up to 999. </p>
+
+    <h3>Workflow Job Pick</h3>
+    <h4>Listed Group</h4>
+    <p>A workflow group from the Linnworks workflow screen. The job pick screen will display the next five jobs to be completed from the chosen group.</p>
+
+    <h4>Job Restrictions</h4>
+    <p>The pick restrictions sub screen allows some fine tuning over which specific workflow jobs can be picked up by the device. Scanning a job that is not allowed in a restriction will result in an error.</p>
+    <ul>
+      <li>Restrict all picks to be from the chosen worfklow group</li>
+      <li>Allow pending jobs to be picked</li>
+      <li>Allow completed jobs to be picks</li>
+    </ul>
+
   </div>
 
 
