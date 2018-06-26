@@ -1,12 +1,12 @@
 <template>
 <div>
-  <h1 class="uk-heading-primary">ePickList</h1>
-  <p>ePickList (EPL) is a Linnworks application that generates an electronic pick list for your orders. EPL has been designed to improve your warehouse picking in two key areas:</p>
+  <h1 class="uk-heading-primary">epicklist</h1>
+  <p>epicklist (EPL) is a Linnworks application that generates an electronic pick list for your orders. EPL has been designed to improve your warehouse picking in two key areas:</p>
   <ul class="uk-list uk-list-bullet">
     <li><b>Paper Waste</b>: without having to print paper pick lists, you stand to save time &amp; money by using an electronic alternative.</li>
     <li><b>Human Error</b>: by implementing restrictions, such as forced barcode scanning and user permissions, you can cut down on human error, like when warehouse staff accidentally pick the wrong item for an order.</li>
   </ul>
-  <p>Using EPL, you will be able to create interactive pick lists, that are simple and easy for warehouse staff to use. Once you have picked all the items you need to, ePickList can flag those picked orders, so that you can identify and manage them after a pick.</p>
+  <p>Using EPL, you will be able to create interactive pick lists, that are simple and easy for warehouse staff to use. Once you have picked all the items you need to, epicklist can flag those picked orders, so that you can identify and manage them after a pick.</p>
 
   <hr class="uk-margin-large">
   <h1 id="pick-modes">Pick Modes</h1>
@@ -32,16 +32,16 @@
   <div id="jobpick"></div>
   <div>
     <h2>Job Pick</h2>
-    <p>If you are using the Linnworks Order Workflow functionality, you can use ePickList to generate a pick list for all orders in a specified workflow job.</p>
+    <p>If you are using the Linnworks Order Workflow functionality, you can use epicklist to generate a pick list for all orders in a specified workflow job.</p>
     <p>To do this, first make sure you are in <b>Job pick</b> mode, by selecting it from the top right menu.</p>
     <p>Once you have configured your pick settings, you can search for a Job Name using the search bar located at the bottom of the screen.</p>
-    <p>The job name can either be manually typed, or scanned from a barcode. Once ePickList has found the correct job, the pick list will be loaded, and you can begin picking.</p>
+    <p>The job name can either be manually typed, or scanned from a barcode. Once epicklist has found the correct job, the pick list will be loaded, and you can begin picking.</p>
     <p><b>NOTE:</b> This functionality is not available to all Linnworks users. For more information about the Order Workflows feature, please contact Linnworks Support.</p>
   </div>
   <hr class="uk-margin-large">
   <h1>Settings</h1>
   <div id="settings">
-    <p>The settings screen can be found by tapping on the menu icon (three dots) on the top right of the application, and selecting "Settings". This allows for complete control of what orders are picked by ePickList at any given time.</p>
+    <p>The settings screen can be found by tapping on the menu icon (three dots) on the top right of the application, and selecting "Settings". This allows for complete control of what orders are picked by epicklist at any given time.</p>
   </div>
   <div id="settings_picksource"></div>
   <div>
@@ -66,7 +66,7 @@
     <h4>Open Order View</h4>
     <p>The Linnworks.net order view to load orders from. If you're setting up a view just for EPL, you needn't worry about things like what columns are visible; just make sure the filters only return the orders you want to pick, and we'll handle the rest.</p>
     <h4>Number of Orders</h4>
-    <p>An order view can contain hundreds, or even thousands of orders at a time. To make sure no single picker is being set the impossible task of picking items for every single one of these in one go, you can set the number of orders ePickList will select from this view, from 1 up to 999. </p>
+    <p>An order view can contain hundreds, or even thousands of orders at a time. To make sure no single picker is being set the impossible task of picking items for every single one of these in one go, you can set the number of orders epicklist will select from this view, from 1 up to 999. </p>
 
     <h3>Workflow Job Pick</h3>
     <h4>Listed Group</h4>
@@ -214,14 +214,14 @@
       <li><b>Cannot find product:</b> For when you can't find the item in the bin/rack location specified</li>
       <li><b>Not enough to fulfil:</b> For when you can find the item, but there isn't enough in the bin/rack location specified to fully pick the item</li>
     </ul>
-    <p>Reporting an item will leave a note on all the orders that could not be fulfilled, and flag these items in the ePickList Dashboard</p>
+    <p>Reporting an item will leave a note on all the orders that could not be fulfilled, and flag these items in the epicklist Dashboard</p>
   </div>
 
   <div id="batcheditems"></div>
   <hr class="uk-margin-large">
   <div>
     <h2>Batched Items</h2>
-    <p>If you are using the Stock Item Batching functionality in Linnworks, Linnworks will automatically assign your order items to the appropriate batches when ePickList generates a new pick.</p>
+    <p>If you are using the Stock Item Batching functionality in Linnworks, Linnworks will automatically assign your order items to the appropriate batches when epicklist generates a new pick.</p>
     <p>Once an order item has been assigned to a batch, you will see the batch number highlighted in green, located underneath the amount needed to be picked.</p>
     <p>If you decide that you cannot pick from the batches that Linnworks has assigned to these order items, you can change the batch assignment from the Report Item screen.</p>
     <p>On this screen you will be able to see all available batches for this item. Tapping one will allow you to re-arrange the batch allocation.</p>
@@ -233,7 +233,7 @@
     <div id="epldashboard"></div>
     <h2>EPL Dashboard</h2>
     <p>In Linnworks, you can see an overview of all your EPL picks from the EPL Dashboard.</p>
-    <p>To view the dashboard in Linnworks.net, click the Apps button in the Linnworks.net left hand menu, and select ePickList. On this screen you can see every pick you have generated using ePicklist.</p>
+    <p>To view the dashboard in Linnworks.net, click the Apps button in the Linnworks.net left hand menu, and select epicklist. On this screen you can see every pick you have generated using ePicklist.</p>
     <p>The search bar allows you to find a specific pick by entering a pick reference. You can use the toggles to the right to view Active, Complete or Aborted picks.</p>
     <p>Clicking on a pick will allow you to see a list of orders and items included in that pick.</p>
     <p>The dashboard contains live information. Every action taken by a picker in EPL is reported instantly to this screen.</p>
@@ -248,7 +248,7 @@
 export default {
   head() {
       return {
-        title: 'ePickList'
+        title: 'epicklist'
       }
   }
 }
